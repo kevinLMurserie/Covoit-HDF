@@ -1,0 +1,30 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header img{
+    width: 120px;
+}
+nav{
+    margin: 0 -7px ;
+    padding: 0 10px;
+    height: 40x;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: lime;
+}
+#nav-groupe{
+    display:flex ;
+    justify-content: space-between;
+
+}
+#nav-groupe h4{
+    margin-right: 5px;
+
+}
+nav h4{
+    margin: 4px 5px;
+}
