@@ -59,7 +59,7 @@ form div{
 }
 form h1{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 30px;
 }
 form h3{
@@ -68,7 +68,7 @@ form h3{
 form input{
     border-radius: 20px;
     width: 250px;
-
+    
 }
 #boutons{
     justify-content: space-evenly;
@@ -88,3 +88,4 @@ form input{
     color : red;
     border: red 2px solid;
 }
+
