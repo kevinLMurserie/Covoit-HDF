@@ -1,0 +1,38 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header img{
+    width: 120px;
+}
+nav{
+    margin: 0 -7px ;
+    padding: 0 10px;
+    height: 40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: lime;
+}
+#nav-groupe{
+    display:flex ;
+    justify-content: space-between;
+
+}
+#nav-groupe h4{
+    margin-right: 5px;
+
+}
+nav h4{
+    margin: 4px 5px;
+}
+main{
+    background-image: url("image\ 4.png");
+    width: 100%;
+    background-size: 80%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
