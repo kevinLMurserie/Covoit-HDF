@@ -3,38 +3,43 @@
     src: url("Inter/Inter-VariableFont_slnt\,wght.ttf");
 }
 
-header{
-    display:flex;
+header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-header img{
+
+header img {
     width: 120px;
 }
-#header-nav{
-    margin: 0 -7px ;
+
+#header-nav {
+    margin: 0 -7px;
     padding: 0 10px;
     height: 40x;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-background-color: lime;
+    background-color: lime;
 }
-#nav-groupe{
-    display:flex ;
+
+#nav-groupe {
+    display: flex;
     justify-content: space-between;
 
 }
-#nav-groupe h4{
+
+#nav-groupe h4 {
     margin-right: 5px;
 
 }
-nav h4{
+
+nav h4 {
     margin: 4px 5px;
 }
 
-#poster-accueil{
+#poster-accueil {
     background-image: url("poster-accueil.png");
     width: 100%;
     height: 60vh;
@@ -46,10 +51,10 @@ nav h4{
     flex-direction: column;
 }
 
-#poster-accueil h1{
+#poster-accueil h1 {
     font-family: inter;
     color: rgb(25, 134, 25);
-    border : 0px solid black;
+    border: 0px solid black;
     background-color: rgba(255, 255, 255, 0.4);
     margin-left: 160px;
     margin-top: 100px;
@@ -57,39 +62,129 @@ nav h4{
     padding: 10px;
     text-align: center;
 
-    
+
 }
 
-#poster-accueil img{
+#poster-accueil img {
     width: 100px;
     height: 80px;
     align-self: flex-end;
 }
 
-#poster-accueil nav{
+#poster-accueil nav {
     background-color: #b4b4b4;
     border-radius: 20px;
     margin-left: 200px;
     margin-bottom: 40px;
-    
+
     height: 30px;
     display: flex;
     align-items: center;
 }
 
-#poster-accueil ul{
+#poster-accueil ul {
     display: flex;
     justify-content: flex-start;
     width: 100%;
     padding-bottom: -10px;
 }
-#poster-accueil li{
+
+#poster-accueil li {
     margin-right: 70px;
 }
-#poster-footer{
+
+#poster-footer {
     width: 100%;
     display: flex;
     justify-content: flex-start;
 }
 
+#infos-pratiques {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 20px;
+}
 
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.info img {
+    width: 60px;
+    height: 60px;
+}
+
+#container-infos-pratiques-2-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#infos-pratiques2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+}
+
+#infos-pratiques2 button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    align-self: center;
+    background-color: rgb(223, 215, 215);
+    border: 0;
+}
+
+#infos-pratiques3 {
+    margin-left: 200px; 
+    width: 450px;
+}
+
+#image-ip3 {
+    width: 450px;
+}
+
+#infos-pratiques3 p {
+    background-color: rgb(223, 215, 215);
+    padding: 15px;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#ligne1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+#aide {
+    display: flex;
+}
+
+#ligne2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 70px;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: rgb(192, 188, 188);
+    margin: -10px;
+    height: 150px;
+    padding-top: 20px;
+}
