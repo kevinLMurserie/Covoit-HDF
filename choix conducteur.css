@@ -81,6 +81,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: lime;
 }
 
 .card{
@@ -119,4 +120,7 @@ footer {
     margin: -10px;
     height: 150px;
     padding-top: 20px;
+}
+a {
+    color: black;
 }
