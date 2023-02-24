@@ -1,0 +1,118 @@
+header{
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header img{
+    width: 120px;
+}
+nav{
+    margin: 0 -7px ;
+    padding: 0 10px;
+    height: 40x;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+background-color: lime;
+}
+#nav-groupe{
+    display:flex ;
+    justify-content: space-between;
+
+}
+#nav-groupe h4{
+    margin-right: 5px;
+
+}
+nav h4{
+    margin: 4px 5px;
+}
+main{
+    background-image: url("plage.png") ;
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+     
+}
+form{
+    height: 300px;
+    width: 550px;
+    margin: 100x;
+    background-position: center;
+    background-color: lime;
+    opacity: 0.6;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+    opacity: 45%;
+}
+form div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+form h3{
+    margin-right: 5px;
+}
+form input{
+    border-radius: 20px;
+    width: 250px;
+
+}
+#drivers{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* mise en page du footer */
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#ligne1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+#aide {
+    display: flex;
+}
+
+#ligne2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 70px;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: rgb(192, 188, 188);
+    margin: -10px;
+    height: 150px;
+    padding-top: 20px;
+}
+a {
+    color: black;
+}
+
+
+    
