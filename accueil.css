@@ -101,8 +101,9 @@ nav h4 {
 
 #infos-pratiques {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 30px;
+    padding: 0 20px;
 }
 
 .info {
@@ -113,7 +114,44 @@ nav h4 {
     width: 25%;
 }
 
-.info img{
-    width:60px;
-    height:60px;
+.info img {
+    width: 60px;
+    height: 60px;
+}
+
+#container-infos-pratiques-2-3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+#infos-pratiques2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+}
+
+#infos-pratiques2 button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    align-self: center;
+    background-color: rgb(223, 215, 215);
+    border: 0;
+}
+
+#infos-pratiques3 {
+    margin-left: 200px; 
+    width: 450px;
+}
+
+#image-ip3 {
+    width: 450px;
+}
+
+#infos-pratiques3 p {
+    background-color: rgb(223, 215, 215);
+    padding: 15px;
 }
