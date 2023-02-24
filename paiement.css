@@ -30,9 +30,9 @@ nav h4{
     margin: 4px 5px;
 }
 main{
-    background-image: url("plage.png") ;
+    background-image: url("fond\ page\ paiement.png") ;
     width: 100%;
-    height: 75vh;
+    height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,11 +44,11 @@ main{
      
 }
 form{
-    height: 300px;
+    height: 490px;
     width: 550px;
     margin: 100x;
     background-position: center;
-    background-color: lime;
+    background-color: rgb(177, 176, 176);
     opacity: 0.6;
     justify-content: center;
     border-radius: 20px;
@@ -76,6 +76,87 @@ form input{
     display: flex;
     justify-content: space-evenly;
 }
+
+form input{
+    border-radius: 20px;
+    width: 250px;
+    
+}
+#boutons{
+    justify-content: space-evenly;
+}
+#boutons button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 25px;
+    opacity: 70%;
+}
+#Valider {
+    background-color: #52b83e; 
+    color : white;
+}
+#Annuler {
+    background-color: white; 
+    color : red;
+    border: red 2px solid;
+}
+main img {
+    height: 40px;
+    /* /* display: flex end; */
+    justify-content: end; 
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#ligne1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+#aide {
+    display: flex;
+}
+
+/* mise en page du footer */
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#ligne1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+#aide {
+    display: flex;
+}
+
+#ligne2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 70px;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: rgb(192, 188, 188);
+    margin: -10px;
+    height: 150px;
+    padding-top: 20px;
+}
+
 
 
     
