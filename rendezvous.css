@@ -114,5 +114,8 @@ a {
     color: black;
 }
 
+img{
+   background-attachment: fixed;
+}
 
     
