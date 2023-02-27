@@ -133,12 +133,14 @@ footer {
 #Valider {
     background-color: #52b83e; 
     color : white;
+    border-radius: 20px;
     
 }
 #retour {
     background-color: white; 
     color : red;
     border: red 2px solid;
+    border-radius: 20px;
 }
 a {
     color: black;
