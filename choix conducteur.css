@@ -121,6 +121,23 @@ footer {
     height: 150px;
     padding-top: 20px;
 }
+
+#boutons button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+#Valider {
+    background-color: #52b83e; 
+    color : white;
+    
+}
+#retour {
+    background-color: white; 
+    color : red;
+    border: red 2px solid;
+}
 a {
     color: black;
     text-decoration: none;
