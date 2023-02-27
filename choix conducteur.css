@@ -121,6 +121,8 @@ footer {
     height: 150px;
     padding-top: 20px;
 }
+#boutons{
+    justify-content: space-evenly;}
 
 #boutons button{
     height: 50px;
