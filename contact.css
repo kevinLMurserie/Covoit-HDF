@@ -24,70 +24,72 @@ background-color: lime;
 }
 #nav-groupe h4{
     margin-right: 5px;
-
+    
 }
 nav h4{
     margin: 4px 5px;
+    color: black;
 }
 main{
-    background-image: url("plage.png") ;
+    background-image: url("OIP.jfif") ;
     width: 100%;
-    height: 150vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
     justify-content: center;
     align-items: center;
-    
-    flex-direction: column;
-     
+
 }
 form{
     height: 300px;
     width: 550px;
     margin: 100x;
+    background-position: center;
     background-color: rgb(229, 226, 226);
     opacity: 0.6;
     justify-content: center;
     border-radius: 20px;
     padding: 20px;
 }
-main div{
+form div{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
-h1{
+form h1{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 30px;
 }
-
-#drivers{
-    display: flex;
+form h3{
+    margin-right: 5px;
+}
+form input{
+    border-radius: 20px;
+    width: 250px;
+    
+}
+#boutons{
     justify-content: space-evenly;
 }
-
-#voiture{
-    background-image: url("voiture.png");
-    background-size:cover ;
-    width: 100%;
-    height: 50vh;
+#boutons button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 25px;
 }
-
-.card-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: lime;
-}
-
-.card{
-    margin: 0 20px;
-}
+#Valider {
+    background-color: #52b83e; 
+    color : white;
     
+}
+#Annuler {
+    background-color: white; 
+    color : red;
+    border: red 2px solid;
+}
 /* mise en page du footer */
 footer img {
     width: 40px;
@@ -121,28 +123,10 @@ footer {
     height: 150px;
     padding-top: 20px;
 }
-#boutons{
-    justify-content: space-evenly;}
-
-#boutons button{
-    height: 50px;
-    width: 150px;
-    border-radius: 20px;
-    font-size: 25px;
-}
-#Valider {
-    background-color: #52b83e; 
-    color : white;
-    border-radius: 20px;
-    
-}
-#retour {
-    background-color: white; 
-    color : red;
-    border: red 2px solid;
-    border-radius: 20px;
-}
-a {
-    color: black;
+a{
     text-decoration: none;
+   color: black;
 }
+
+
+    

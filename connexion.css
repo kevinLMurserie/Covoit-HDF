@@ -28,6 +28,7 @@ background-color: lime;
 }
 nav h4{
     margin: 4px 5px;
+    color: black;
 }
 main{
     background-image: url("image\ page\ incription.png") ;
@@ -114,6 +115,10 @@ footer img {
     background-color: #fff;
     height: 40px;
     border-radius: 50px;
+    text-decoration: none;
+    
+
+    
 }
 
 footer {
