@@ -13,10 +13,10 @@ header img {
     width: 120px;
 }
 
-nav {
+#header-nav {
     margin: 0 -7px;
     padding: 0 10px;
-    height: 40px;
+    height: 40x;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,6 +27,25 @@ nav {
     display: flex;
     justify-content: space-between;
 
+}
+a.redirection:hover {
+    background-color: antiquewhite !important;
+    transition: ease-in-out .4s;
+    border-radius: 20px;
+}
+
+a.redirection {
+    transition: ease-in-out .4s;
+    padding: 10px 20px;
+}
+#nav-groupe{
+    display:flex ;
+    justify-content: space-between;
+
+}
+.active {
+    background-color: antiquewhite !important;
+    border-radius: 20px;
 }
 
 #nav-groupe h4 {
@@ -39,7 +58,7 @@ nav h4 {
 }
 
 main {
-    background-image: url("image\ 4.png");
+    /* background-image: url("image\ 4.png"); */
     width: 100%;
     background-size: 80%;
     height: 100vh;
@@ -63,17 +82,36 @@ form {
     justify-content: flex-start;
 }
 
-form #inputs div {
+form #inputs div:not(#cartegrise) {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 5px;
     margin-right: 160px;
 }
+#critAir {    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-right: 160px;}
+#cartegrise {    
+        display: inline-block;
+        /* justify-content: flex-end; */
+        /* align-items: center; */
+        margin-bottom: 5px;
+        margin-right: auto;}
+       
+ #imput-carteGrise{
+    font-size: 14px!important;
+ }
 
 label {
-    margin-right: 10px;
-    font-size: 20px;
+    /* margin-right: 10px; */
+    font-size: 14px;
+}
+input, select {
+    margin-left: 30px;
 }
 
 section {
@@ -82,17 +120,18 @@ section {
     align-items: center;
 }
 
-section button {
-    margin: 30px;
-    font-size: 20px;
-    padding: 5px;
+section a {
+    margin: 20px auto;
+    font-size: 16px;
+    padding: 10px 20px;
     border-radius: 20px;
-    width: 100px;
+    /* width: 100px; */
 }
 
 #Valider {
     background-color: green;
     color: white;
+    border: 2px green solid;
 }
 
 #retour {

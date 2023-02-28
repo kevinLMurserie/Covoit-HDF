@@ -8,7 +8,7 @@ header{
 header img{
     width: 120px;
 }
-nav{
+/* nav{
     margin: 0 -7px ;
     padding: 0 10px;
     height: 40x;
@@ -16,6 +16,31 @@ nav{
     justify-content: space-between;
     align-items: center;
 background-color: lime;
+} */
+#header-nav {
+    margin: 0 -7px;
+    padding: 0 10px;
+    height: 40x;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lime;
+}
+
+#nav-groupe {
+    display: flex;
+    justify-content: space-between;
+
+}
+a.redirection:hover {
+    background-color: antiquewhite !important;
+    transition: ease-in-out .4s;
+    border-radius: 20px;
+}
+
+a.redirection {
+    transition: ease-in-out .4s;
+    padding: 10px 20px;
 }
 #nav-groupe{
     display:flex ;

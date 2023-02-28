@@ -68,34 +68,67 @@ nav h4 {
 #poster-accueil img {
     width: 100px;
     height: 80px;
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 
-#poster-accueil nav {
+img.puce {
+    width: 1em !important;
+    height: 1em !important;
+
+}
+
+#poster-accueil form {
     background-color: #b4b4b4;
     border-radius: 20px;
     /* margin-left: 200px; */
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-min-width: 80vw;
-    height: 30px;
+    min-width: 80vw;
+    height: 40px;
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
+    padding: 10px 5px;
+
 }
+
 
 #poster-accueil ul {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 100%;
-    list-style: disc inside url("puce-verte.png");;
+    list-style: disc inside url("puce-verte.png");
+    ;
     /* padding-bottom: -10px; */
 }
 
 #poster-accueil li {
     /* margin-right: 70px; */
-font-size: 1.2em;
+    font-size: 1.2em;
+}
+
+a.redirection:hover {
+    background-color: antiquewhite !important;
+    transition: ease-in-out .4s;
+    border-radius: 20px;
+}
+
+a.redirection {
+    transition: ease-in-out .4s;
+    padding: 10px 20px;
+}
+
+a#bouton-recherche {
+    padding: 5px 10px;
+    background-color: rgb(25, 134, 25);
+    color: white !important;
+    border-radius: 20px;
+}
+
+a#bouton-recherche:hover {
+    background-color: white !important;
+    color: #198619 !important;
 }
 
 #poster-footer {
@@ -114,7 +147,7 @@ font-size: 1.2em;
 
 .info {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     width: 25%;
@@ -130,10 +163,10 @@ font-size: 1.2em;
     max-width: 70vw;
     justify-content: space-between;
     padding: 20px;
-    margin: 30px auto ;
+    margin: 30px auto;
     /* background-image: url("OIP-ecologique2.png"); */
 
-} 
+}
 
 #infos-pratiques2 {
     display: flex;
@@ -151,7 +184,7 @@ font-size: 1.2em;
     border: 0;
 }
 
- #infos-pratiques3 {
+#infos-pratiques3 {
     /* margin-left: 200px;  */
     width: 450px;
 }
@@ -159,6 +192,7 @@ font-size: 1.2em;
 #image-ip3 {
     width: 450px;
 }
+
 /* 
 #infos-pratiques3 p {
     background-color: rgb(223, 215, 215);
@@ -198,11 +232,13 @@ footer {
     height: 150px;
     padding-top: 20px;
 }
+
 a {
     color: black;
     text-decoration: none;
 }
-h3{
+
+#infos-pratiques h3 {
     font-size: 1.1em;
     margin-top: 0.4em;
 }

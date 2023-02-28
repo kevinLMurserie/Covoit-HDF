@@ -43,17 +43,23 @@ main{
     flex-direction: column;
      
 }
-form{
+iframe{
+    overflow-x: hidden;
+}
+.rdv{
     height: 300px;
     width: 550px;
-    margin: 100x;
-    background-position: center;
-    background-color: lime;
-    opacity: 0.6;
-    justify-content: center;
+    margin: auto;
+    /* background-position: center; */
+    background-color: rgba(0, 255, 0, 0.427);
+    /* opacity: 0.6; */
+    align-items: center;
     border-radius: 20px;
     padding: 20px;
-    opacity: 45%;
+    display:flex;
+    font-size: 1.2em;
+    line-height: auto;
+    color: #0b022a!important;
 }
 form div{
     display: flex;
@@ -106,16 +112,22 @@ footer img {
 
 footer {
     background-color: rgb(192, 188, 188);
-    margin: -10px;
+    /* margin: -10px; */
     height: 150px;
     padding-top: 20px;
+    overflow-x: hidden;
 }
 a {
     color: black;
 }
 
-img{
+/* img{
    background-attachment: fixed;
+} */
+img#voiture{
+    width: 100%;
 }
-
+img#carte{
+    width: 100%;
+}
     
