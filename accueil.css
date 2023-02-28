@@ -74,23 +74,28 @@ nav h4 {
 #poster-accueil nav {
     background-color: #b4b4b4;
     border-radius: 20px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     margin-bottom: 40px;
-
+    margin-left: auto;
+    margin-right: auto;
+min-width: 80vw;
     height: 30px;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
 }
 
 #poster-accueil ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content:space-around;
     width: 100%;
-    padding-bottom: -10px;
+    list-style: disc inside url("puce-verte.png");;
+    /* padding-bottom: -10px; */
 }
 
 #poster-accueil li {
-    margin-right: 70px;
+    /* margin-right: 70px; */
+font-size: 1.2em;
 }
 
 #poster-footer {
@@ -104,33 +109,37 @@ nav h4 {
     justify-content: space-between;
     margin-top: 30px;
     padding: 0 20px;
+    margin-bottom: 30px;
 }
 
 .info {
     display: flex;
-    justify-content: center;
+    justify-content:start;
     align-items: center;
     flex-direction: column;
     width: 25%;
 }
 
 .info img {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
 }
 
 #container-infos-pratiques-2-3 {
     display: flex;
+    max-width: 70vw;
     justify-content: space-between;
     padding: 20px;
+    margin: 30px auto ;
+    /* background-image: url("OIP-ecologique2.png"); */
 
-}
+} 
 
 #infos-pratiques2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 450px;
+    width: 30vw;
 }
 
 #infos-pratiques2 button {
@@ -142,19 +151,20 @@ nav h4 {
     border: 0;
 }
 
-#infos-pratiques3 {
-    margin-left: 200px; 
+ #infos-pratiques3 {
+    /* margin-left: 200px;  */
     width: 450px;
 }
 
 #image-ip3 {
     width: 450px;
 }
-
+/* 
 #infos-pratiques3 p {
     background-color: rgb(223, 215, 215);
     padding: 15px;
-}
+    font-size: 0.6em;
+} */
 
 footer img {
     width: 40px;
@@ -191,4 +201,8 @@ footer {
 a {
     color: black;
     text-decoration: none;
+}
+h3{
+    font-size: 1.1em;
+    margin-top: 0.4em;
 }
