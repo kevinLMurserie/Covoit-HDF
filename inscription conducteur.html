@@ -8,7 +8,7 @@
     <title>inscription Conducteur</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="inscription conducteur.css">
-   
+
 </head>
 
 <body>
@@ -18,84 +18,95 @@
         <h3>Le covoiturage des Hauts de France</h3>
     </header>
 
-    <nav>
-        <a href="http://127.0.0.1:5500/accueil.html" class="redirection"><h4>Accueil</h4></a> 
-    
+    <nav id="header-nav" class="py-2 px-3 fs-6 fw-bold">
+
+        <a href="accueil.html" class="redirection mx-4">Accueil</a>
+
         <div id="nav-groupe">
-       
-            <a href="http://127.0.0.1:5500/inscription%20conducteur.html" class="redirection"><h4>Inscription Conducteur</h4></a>
-          <a href="http://127.0.0.1:5500/inscription.html" class="redirection"><h4>Inscription</h4></a>
-        <a href="http://127.0.0.1:5500/connexion.html" class="redirection"><h4>Connexion</h4></a> 
-    
-         
+            <a href="inscription%20conducteur.html" class="redirection mx-4 active">Inscription conducteur</a>
+            <a href="inscription.html" class="redirection mx-4">Inscription</a>
+            <a href="connexion.html" class="redirection mx-4">Connexion</a>
         </div>
-      </nav>
-    <main>
-        <form>
-            <h3>Inscription conducteur</h3>
-            <div id="inputs">
-                <div id="nom">
-                    <label for="input-nom">Nom :</label>
-                    <input type="text" id="input-nom">
-                </div>
-                <div id="prenom">
-                    <label for="imput-prenom">prenom :</label>
-                    <input type="text" id="imput-prenom">
-                </div>
-                <div id="date de naissance">
-                    <label for="imput-dateDeNaissance">date de naissance :</label>
-                    <input type="date" id="imput-dateDeNaissance">
-                </div>
-                <div id="email">
-                    <label for="imput-email">email :</label>
-                    <input type="text" id="imput-email">
-                </div>
-                <div id="numero de telephone">
-                    <label for="">numero de telephone :</label>
-                    <input type="tel" id="imput-numeroDeTelephone">
-                </div>
-                <div id="numero de rue">
-                    <label for="imput-numeroDeLaRue">numero de la rue :</label>
-                    <input type="text" id="imput-numeroDeLaRue">
-                </div>
-                <div id="nom de la rue">
-                    <label for="imput-nomDeLaRue">nom de la rue :</label>
-                    <input type="text" id="imput-nomDeLaRue">
-                </div>
-                <div id="code postal">
-                    <label for="imput-codePostal">code postal :</label>
-                    <input type="number" id="imput-codePostal">
-                </div>
-                <div id="mot de passe">
-                    <label for="imput-motDePasse">mot de passe :</label>
-                    <input type="password" id="imput-motDePasse">
-                </div>
-                <div id="confirmation de mot de passe">
-                    <label for="imput-confirmation"> confirmation De Mot De Passe :</label>
-                    <input type="password" id="imput-confirmation">
-                </div>
-                <div id="numero d'imatriculation">
-                    <label for="imput-imatriculation"> numero d'imatriculation :</label>
-                    <input type="text" id="imput-imatriculation">
-                </div>
-                   <div id="vignette crit'd'air">
-                    <label for="imput-confirmation"> vignette crit'd'air :</label>
-                    <input type="number" id="imput-vignette">
-                </div>
-                <div id="carte grise">
-                    <label for="imput-carteGrise"> Carte grise :</label>
-                    <input type="file" id="imput-carteGrise">
-                </div>
-             
-                
-                <section>
-                    <a href="http://127.0.0.1:5500/accueil.html" > <button type="button"id="retour">retour</button> </a>
-                    <a href="http://127.0.0.1:5500/accueil.html"> <button type="button" id="Valider">Valider</button> </a>
-                   </div>
-                </section>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <h4 style="margin-top: -30px; margin-bottom: 30px;">Inscription Conducteur</h4>
+                    <div id="inputs">
+                        <div id="nom">
+                            <label for="input-nom">Nom :</label>
+                            <input type="text" id="input-nom">
+                        </div>
+                        <div id="prenom">
+                            <label for="imput-prenom">prenom :</label>
+                            <input type="text" id="imput-prenom">
+                        </div>
+                        <div id="dateNaissance">
+                            <label for="imput-dateDeNaissance">date de naissance :</label>
+                            <input type="date" id="imput-dateDeNaissance">
+                        </div>
+                        <div id="email">
+                            <label for="imput-email">email :</label>
+                            <input type="text" id="imput-email">
+                        </div>
+                        <div id="numeroTelephone">
+                            <label for="">numero de telephone :</label>
+                            <input type="tel" id="imput-numeroDeTelephone">
+                        </div>
+                        <div id="numeroRue">
+                            <label for="imput-numeroDeLaRue">numero de la rue :</label>
+                            <input type="text" id="imput-numeroDeLaRue">
+                        </div>
+                        <div id="rue">
+                            <label for="imput-nomDeLaRue">nom de la rue :</label>
+                            <input type="text" id="imput-nomDeLaRue">
+                        </div>
+                        <div id="codepostal">
+                            <label for="imput-codePostal">code postal :</label>
+                            <input type="number" id="imput-codePostal">
+                        </div>
+                        <div id="motPasse">
+                            <label for="imput-motDePasse">mot de passe :</label>
+                            <input type="password" id="imput-motDePasse">
+                        </div>
+                        <div id="confirmationMdp">
+                            <label for="imput-confirmation"> confirmation :</label>
+                            <input type="password" id="imput-confirmation">
+                        </div>
+                        <div id="numero d'imatriculation">
+                            <label for="imput-imatriculation"> numero d'imatriculation :</label>
+                            <input type="text" id="imput-imatriculation">
+                        </div>
+                        <div id="critAir">
+                            <label for="critAir">Vignette Crit'Air</label>
+                           <select name="critAir" id="critAir">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                           </select>
+                        </div>
+                        <div id="cartegrise">
+                            <label for="imput-carteGrise"> Carte grise :</label>
+                            <input type="file" id="imput-carteGrise">
+                        </div>
+
+                        <section>
+                            <a href="accueil.html" id="retour"> retour </a>
+                            <a href="accueil.html" id="Valider"> Valider </a>
+                        </section>
+                    </div>
+                </form>
             </div>
-        </form>
-    </main>
+            <div class="col-6">
+                <img src="/image 4.png" alt="illu" class="img-fluid">
+            </div>
+
+        </div>
+
+    </div>
     <footer>
         <div id="ligne1">
             <div id="aide"> <a href="http://127.0.0.1:5500/besoind'aide.html"><img src="tchat_ecolo.png" alt=""></a> 
