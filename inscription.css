@@ -73,6 +73,7 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: rgb(37, 180, 37);;
 }
 
 #inputs {

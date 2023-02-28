@@ -8,34 +8,14 @@ header{
 header img{
     width: 120px;
 }
-#header-nav {
-    margin: 0 -7px;
+nav{
+    margin: 0 -7px ;
     padding: 0 10px;
     height: 40x;
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lime;
-}
-
-#nav-groupe {
-    display: flex;
-    justify-content: space-between;
-
-}
-a.redirection:hover {
-    background-color: antiquewhite !important;
-    transition: ease-in-out .4s;
-    border-radius: 20px;
-}
-.active {
-        background-color: antiquewhite !important;
-        border-radius: 20px;
-}
-
-a.redirection {
-    transition: ease-in-out .4s;
-    padding: 10px 20px;
+background-color: lime;
 }
 #nav-groupe{
     display:flex ;
@@ -44,15 +24,14 @@ a.redirection {
 }
 #nav-groupe h4{
     margin-right: 5px;
-
+    
 }
 nav h4{
     margin: 4px 5px;
     color: black;
 }
 main{
-    background-image: url("image\ page\ incription.png") ;
-    width: 100%;
+    width: 50%;
     height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,7 +104,6 @@ footer img {
 
 #aide {
     display: flex;
-   
 }
 
 #ligne2 {
@@ -135,10 +113,7 @@ footer img {
     margin: 20px 70px;
     background-color: #fff;
     height: 40px;
-    border-radius: 50px;
-    color: black;
-    
-
+    border-radius: 50px; 
     
 }
 
@@ -146,19 +121,25 @@ footer {
     background-color: rgb(192, 188, 188);
     margin: -10px;
     height: 150px;
-    padding-top: 20px; 
-    color: black;
+    padding-top: 20px;
 }
 a{
     text-decoration: none;
-   color: black !important;
+    color: red ;
+    color: black !important;
  
-
-} 
-a:visited {
-    color: black;
+   
 }
-
-
+#youtube{
+    color: red!important;
+}
+#page{
+    background-color:rgb(192,188,188); 
+       
+    
+}
+#sos{
+    height: 410px;
+}
 
     
