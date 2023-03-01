@@ -57,7 +57,7 @@ nav h4 {
 }
 
 main {
-    background-image: url("image\ 4.png");
+    /* background-image: url("image\ 4.png"); */
     width: 100%;
     background-size: 80%;
     height: 100vh;
