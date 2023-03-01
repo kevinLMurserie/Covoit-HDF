@@ -7,17 +7,24 @@
     <link rel="stylesheet" href="accueil.css">
     <title>FAQ</title>
 </head>
+
 <body>
+    <header>
+        <h3>Bienvenue sur Covoit HDF</h3>
+        <a href="accueil.html"> <img src="image 2.png"> </a>
+        <h3>Le covoiturage des Hauts de France</h3>
+    </header>
     <div>
         <h1> FAQ </h1>
-          <p>
-         Notre foire aux questions se construit avec vos retours. N'hésitez à nous faire part 
-         de vos questions ou amélioration. Cliquez sur la question pour accéder directement à la réponse
-       
-        </p>  
+          
+         
 
        
-        <div>
+        <div class="faq ">
+            <p>
+         Notre foire aux questions se construit avec vos retours. N'hésitez à nous faire part 
+         de vos questions ou amélioration. Cliquez sur la question pour accéder directement à la réponse
+       </p> 
             <h2>
                 Qu'est-ce qu'un trajet ?
             </h2>
@@ -37,7 +44,8 @@
                  de départ et d’arrivée. En conséquence, il n’est pas possible, aujourd’hui, pour le Registre
                  de délivrer des attestations de covoiturage, pendant un trajet afin d’obtenir une incitation 
                  en temps réel. En revanche, il est indispensable pour les organismes incitateurs d’obtenir des 
-                 informations sur la réalisation d’un trajet au plus vite. En conséquence, un juste milieu doit être trouvé.
+                 informations sur la réalisation d’un trajet au plus vite. En conséquence, un juste milieu doit 
+                 être trouvé.
                  Le consensus trouvé avec les différentes parties prenantes est un délai de 5 jours (120 heures) 
                  entre la fin du trajet et la communication de la preuve de covoiturage. Nos processus de contrôle
                 opérant durant 2 jours (48h), notre promesse serait “retrouvez dans le Registre de preuve de covoiturage,
@@ -50,23 +58,45 @@
                 L’open source s'applique aux logiciels dont la licence respecte des critères précisément établis par l'Open Source Initiative, c'est-à-dire les possibilités de libre redistribution, d'accès au code source et de création de travaux dérivés. Mis à la disposition du grand public, ce code source est généralement le résultat d'une collaboration entre programmeurs. (Wikipédia). En France, l’ensemble des codes-sources développés par les administrations doivent être ouverts (sauf rares exceptions), le registre de preuve de covoiturage est donc “open source”.
             </p>
             <h2>
-                Qu'est-ce qu'un trajet ?
+                Peut-on faire remonter le nom de l’opérateur de covoiturage à une AOM, bien qu’ils ne soient pas partenaires ?
             </h2>
             <p>
-                Dans la base de données les trajets correspondent à des couples passager-conducteur contenant les informations d'un trajet effectué. Ainsi si dans un covoiturage le nombre de passager est de 2 alors deux couples sont envoyés au registre :
-                Conducteur 1 - Passager 1 : 10 km, etc. 
-                Conducteur 1 - Passager 2 : 10,5 km, etc.
+                L’objectif du Registre est également de solidifier la construction juridique de la politique incitative, il nous semble indispensable de montrer à l’AOM quel taux de couverture représente sa politique incitative en matière de trajets covoiturés sur le territoire et surtout pour garantir que les partenariats noués sont conformes aux pratiques concurrentielles.  
             </p>
             <h2>
-                Qu'est-ce qu'un trajet ?
+                En cas d’incitation proportionnelle à la distance, sur quelle donnée est basé le calcul ?
             </h2>
             <p>
-                Dans la base de données les trajets correspondent à des couples passager-conducteur contenant les informations d'un trajet effectué. Ainsi si dans un covoiturage le nombre de passager est de 2 alors deux couples sont envoyés au registre :
-                Conducteur 1 - Passager 1 : 10 km, etc. 
-                Conducteur 1 - Passager 2 : 10,5 km, etc.
+                L’opérateur de covoiturage remonte auprès du Registre de preuve de covoiturage:
+                obligatoirement un point de départ (passager) et un point d’arrivée (passager) ;
+                facultativement une distance entre ces deux points, aussi nommée la distance annoncée.
+                Le Service, calcule la distance théorique entre le point de départ (passager) et le point d’arrivée (passager). Cette distance correspond à la partie du trajet conducteur qui est covoiturée. A noter que la distance réalisée par le conducteur avant la prise en charge et après la dépose du passager n’est pas comptabilisée. 
+                La solution utilisée pour calculer la distance théorique est Open Source Routing Machine ou OSRM. Il s’agit d'un moteur de recherche d'itinéraire libre haute performance permettant d'obtenir les plus courts chemins dans un réseau routier. Plus d’informations sur : http://project-osrm.org/
+                Si la distance annoncée a été communiquée auprès du Service, le Service calcule une différence entre cette dernière et la distance théorique. En cas de différence excessive le trajet se voit affecter une mauvaise note dans le service “fraude et anomalie”. 
+                En cas d’incitation proportionnelle à la distance, trois cas d’usage sont à distinguer : 
+                La distance annoncée et la distance théorique sont sensiblement identiques : le calcul se base sur la distance annoncée.
+                La distance annoncée n’a pas été communiquée : le calcul se base sur la distance théorique.
+                La distance annoncée et la distance théorique sont très différentes : le trajet n’est pas incité.
             </p>
         </div>
     </div>
-    
+    <footer>
+        <div id="ligne1">
+            <div id="aide"> <a href="http://127.0.0.1:5500/besoind'aide.html"><img src="tchat_ecolo.png" alt=""></a> 
+                <a href="http://127.0.0.1:5500/besoind'aide.html"><h4>Besoin d'aide ?</h4></a> 
+            </div>
+            <div id="socials">
+                <img src="Facebook.png" alt="">
+                <img src="Twitter.png" alt="">
+                <img src="Instagram.png" alt="">
+                <img src="Tik tok.png" alt="">
+            </div>
+        </div>
+        <div id="ligne2">
+            <a href="http://127.0.0.1:5500/contact.html"style= "text-decoration:none;"class="redirection"><h4>Contact</h4></a> 
+            <h4>Parametre</h4>
+            <h4>Nous suivre</h4>
+        </div>
+    </footer>
 </body>
 </html>
