@@ -139,7 +139,30 @@ a{
     
 }
 #sos{
-    height: 410px;
+    height: 400px;
+
 }
+#aidememe{
+    height: 400px;
+    width: 450px;
+}
+#coyote{
+    height: 400px;
+}  
+#alerte{
+    height: 237px;
+}
+
+#groupedimage{
+
+    margin: 100x;
+    background-position: center;
+    background-color: rgb(229, 226, 226);
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
 
     
