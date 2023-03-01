@@ -1,3 +1,11 @@
+body {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
 @font-face {
     font-family: inter;
     src: url("Inter/Inter-VariableFont_slnt\,wght.ttf");
@@ -246,8 +254,11 @@ a {
 
 #button1 {
     color: black;
-    background-color: #198619;
-    border: radius 20px;
+    background-color: lightgray;
+    border: 0;
+    height: 40px;
+    width: 90px;
+    border-radius: 30px;
 
 }
 .faq{
@@ -267,5 +278,24 @@ h1{
     font-size: 40px;
 }
 .divconcour {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+#textconcour {
+    color: #1e9f1e;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-right: 30px;
+    
+}
+p{
+    text-align: justify;
 
 }
