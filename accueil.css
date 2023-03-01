@@ -177,10 +177,11 @@ a#bouton-recherche:hover {
 
 #infos-pratiques2 button {
     width: 150px;
-    height: 30px;
+    height: 35px;
     font-size: 15px;
     align-self: center;
     background-color: rgb(223, 215, 215);
+    border-radius: 15px;
     border: 0;
 }
 
@@ -241,4 +242,10 @@ a {
 #infos-pratiques h3 {
     font-size: 1.1em;
     margin-top: 0.4em;
+}
+
+#button1 {
+    color: black;
+    background-color: #198619;
+    border: radius 20px;
 }
