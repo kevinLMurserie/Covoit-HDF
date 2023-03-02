@@ -171,3 +171,20 @@ a {
     color: black;
     text-decoration: none;
 }
+#boutons{
+    justify-content: space-evenly;
+}
+#Valider {
+    background-color: #52b83e; 
+    color : white;
+    
+}
+#Annuler {
+    background-color: white; 
+    color : red;
+    border: red 2px solid;
+ height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 25px;
+}
