@@ -146,6 +146,8 @@ footer {
     height: 150px;
     padding-top: 20px;
 }
+
+
 #boutons{
     justify-content: space-evenly;}
 
@@ -188,3 +190,4 @@ a {
     border-radius: 20px;
     font-size: 25px;
 }
+

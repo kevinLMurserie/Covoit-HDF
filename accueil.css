@@ -125,6 +125,7 @@ a.redirection:hover {
 a.redirection {
     transition: ease-in-out .4s;
     padding: 10px 20px;
+    font-weight: 700;
 }
 
 a#bouton-recherche {
