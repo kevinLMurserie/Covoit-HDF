@@ -121,7 +121,7 @@ footer {
     background-color: rgb(192, 188, 188);
     margin: -10px;
     height: 150px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
 a{
     text-decoration: none;
@@ -136,6 +136,7 @@ a{
      display: flex;
  justify-content: center;
  background-color:rgb(192,188,188);
+ 
 
 
 
@@ -167,6 +168,10 @@ a{
     display: flex;
     justify-content: space-around; 
     align-items:baseline ;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
      
 }
 
