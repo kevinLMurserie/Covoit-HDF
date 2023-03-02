@@ -8,14 +8,26 @@ header{
 header img{
     width: 120px;
 }
+@font-face {
+    font-family: inter;
+    src: url("Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
 nav{
     margin: 0 -7px ;
     padding: 0 10px;
-    height: 40x;
+    height: 50px;
     display:flex;
     justify-content: space-between;
     align-items: center;
 background-color: lime;
+font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+
+
 }
 #nav-groupe{
     display:flex ;
@@ -24,11 +36,21 @@ background-color: lime;
 }
 #nav-groupe h4{
     margin-right: 5px;
+    font-size: 15px;
+    font-family: inter;
+    
+
     
 }
 nav h4{
-    margin: 4px 5px;
+    padding-left: 50px;
+    margin: 4px 5px; 
+    font-size: 15px;
+    font-family: inter;
     color: black;
+    font-weight: 700;
+
+  
 }
 main{
     width: 50%;
