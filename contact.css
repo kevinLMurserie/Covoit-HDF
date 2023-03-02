@@ -42,6 +42,12 @@ nav h4{
     color: black;
     font-weight: 700;
 }
+a.redirection {
+    transition: ease-in-out .4s;
+    padding: 10px 20px;
+    font-weight:700 ;
+
+}
 
 main{
     background-image: url("OIP.jfif") ;
